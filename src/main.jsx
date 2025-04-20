@@ -12,15 +12,16 @@ import Navbar from './navbar/Navbar.jsx'
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
   
-    <App />
-    <Routes>
-      {/* <Route path='/' element = {<Navbar/>}/> */}
+      <App />
+     <Routes>
+      {/* <Route path='/' element = {<Navbar/>}/>  */}
+      <Route path="/" element={<About />} /> 
       <Route path="/about" element = {<About/>}/>
       <Route path="/contact" element = {<Contact/>}/>
       <Route path="/projects" element = {<Projects/>}/>
       <Route path="/details" element = {<Details/>}/>
-    </Routes>
+    </Routes> 
   
-  </BrowserRouter>
+  </BrowserRouter> 
   
 )
