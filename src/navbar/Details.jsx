@@ -2,7 +2,7 @@ import React from 'react'
 
 const Details = () => {
   return (
-    <div className='h-screen w-full flex flex-col justify-evenly items-center'>
+    <div id='details' className='h-screen w-full flex flex-col justify-evenly items-center'>
       <div className= 'flex flex-col justify-evenly items-center'>
         <h1 className = 'font-bold'>News App</h1>
         <p>i created news app with using React js . i use the api to show the news . here i add the click button, searching feature on it</p>

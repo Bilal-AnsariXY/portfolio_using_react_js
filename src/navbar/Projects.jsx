@@ -5,12 +5,9 @@ import advice from './advice.jpeg'
 import calculator from './calculator.avif'
 import jobFinder from './jobFinder.png'
 import tikTacToe from './tikTacToe.png'
-
-
-
 const Projects = () => {
   return (
-    <div className='flex h-auto w-full justify-evenly items-center flex-wrap'>
+    <div id='projects' className='flex h-auto w-full justify-evenly items-center flex-wrap'>
         <div className='h-auto p-1 rounded w-50 mt-5 '>
           <div className='h-30 w-full bg-cover bg-center ' style={{ backgroundImage: `url(${news})` }}></div>
           <h2 className='font-bold'>NEWS WEBSITE</h2>

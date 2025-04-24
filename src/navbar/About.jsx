@@ -21,7 +21,7 @@ const About = () => {
   },[])
  
   return (
-    <div className='flex w-screen h-120 items-center justify-evenly flex-wrap'>
+    <div id='about' className='flex w-screen h-120 items-center justify-evenly flex-wrap'>
       <div className='flex flex-col items-center  flex-wrap '>
         
         <h2 className='m-2 text-xl'>

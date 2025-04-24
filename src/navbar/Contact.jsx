@@ -15,7 +15,7 @@ const Contact = () => {
     setTarea("");
   }
   return (
-    <div className='flex h-100 items-center justify-evenly flex-col flex-wrap'>
+    <div id='contact' className='flex h-100 items-center justify-evenly flex-col flex-wrap'>
       <h1 className='text-2xl border-b'> Contact Me </h1>
       <form className='flex flex-wrap items-center justify-center ' onSubmit={(e)=>
         {

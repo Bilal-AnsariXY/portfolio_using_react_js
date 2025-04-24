@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import {BrowserRouter,Routes,Route } from 'react-router-dom'
+import {BrowserRouter,Routes,Route, HashRouter } from 'react-router-dom'
 import App from './App.jsx'
 import About from './navbar/About.jsx'
 import Contact from './navbar/Contact.jsx'
@@ -10,7 +10,7 @@ import Projects from './navbar/Projects.jsx'
 import Navbar from './navbar/Navbar.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <HashRouter>
   
       <App />
      <Routes>
@@ -22,6 +22,6 @@ createRoot(document.getElementById('root')).render(
       <Route path="/details" element = {<Details/>}/>
     </Routes> 
   
-  </BrowserRouter> 
+  </HashRouter> 
   
 )
